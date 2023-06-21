@@ -8,3 +8,4 @@ ps auxw | grep "codio"
 echo "Reporting Group IDs for user codio"; echo
 id codio 
 reporting-features
+sudo du -s /home/* | sort -n
